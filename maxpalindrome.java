@@ -26,8 +26,8 @@ public class lagerpalindrome {
 Scanner in=new Scanner(System.in);
 System.out.println("enter the string:");
 String input=in.next();
-String pali=palindrome(input);
-System.out.println("longest palindrome  "+pali);
+String palindromeword=palindrome(input);
+System.out.println("longest palindrome  "+palindromeword);
 	}
 
 }
