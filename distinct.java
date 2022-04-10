@@ -16,10 +16,10 @@ public class dublicateremove {
 			temp.add(store);
 			
 		}
-		String result=temp.toString().replace("[", " ").replace("]", " ").replace(",", " ") ;//set we will print some character],[ like this
+		String answer=temp.toString().replace("[", " ").replace("]", " ").replace(",", " ") ;//set we will print some character],[ like this
 		
 		
-System.out.println("The Distinct Word are: "+result);
+System.out.println("The Distinct Word are: "+answer);
 	}
 
 }
