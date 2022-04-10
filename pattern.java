@@ -13,8 +13,8 @@ public class spirlpattern {
 	}}
 
 	public static void main(String[] args) {
-Scanner in=new Scanner(System.in);
+Scanner scan=new Scanner(System.in);
 System.out.println("enter the number:");
-int n=in.nextInt();
+int n=scan.nextInt();
 pattern(n);
 }}
