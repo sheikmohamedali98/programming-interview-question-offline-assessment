@@ -35,13 +35,13 @@ public class LargestPossibleString
     }
     public static void main(String[] args)
     {
-        Scanner scan=new Scanner(System.in);
+        Scanner in=new Scanner(System.in);
         System.out.println("Enter the number of String to be Entered: ");
-        int number=scan.nextInt();
+        int number=in.nextInt();
         System.out.println("String 1: ");
-        String string1=scan.next();
+        String string1=in.next();
         System.out.println("String 2: ");
-        String string2=scan.next();
+        String string2=in.next();
         LargestPossibleString largest=new LargestPossibleString();
         largest.largest_string(string1,string2);
     }
