@@ -1,8 +1,8 @@
 public class DiagnolMatrix {
 public static void main (String [] args ) {
-Scanner in=new Scanner(System.in);
+Scanner input=new Scanner(System.in);
 System.out.println("enter the number=");
-int n=in.nextInt();
+int n=input.nextInt();
 	int number=1;
 	int target =15;
  int top=0,left =0;
