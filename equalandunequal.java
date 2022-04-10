@@ -18,8 +18,8 @@ public class FrequecyOfString {
 		for (int i = 0 ;i<chArr.length-1;i++) {
 			System.out.println(chArr[i]+"  "+chArr[i+1]);
 			System.out.println(chArr[i]-chArr[i+1]);
-			int number = Math.abs(chArr[i]-chArr[i+1]);
-			s.add(number);
+			int numbers = Math.abs(chArr[i]-chArr[i+1]);
+			s.add(numbers);
 		}
 		
 		if (s.size() == 1) {
