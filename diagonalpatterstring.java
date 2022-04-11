@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DiagonalPattern
+public class DiagonalPatternstring
 {
     public void pattern_printing(String string)
     {
